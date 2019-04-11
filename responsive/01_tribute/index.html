@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Tribute Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+	<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+	<style type="text/css">
+		#image {
+			max-width: 100%;
+			display: block;
+			height: auto;
+			/*element should responsively resize, relative to the width of its parent element, without exceeding its original size.*/
+
+			/*element should be centered within its parent element*/
+		}
+
+		#main{
+			font-family: 'Lato', sans-serif;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background-color: hsla(205, 44%, 51%, 0.86);
+			max-width: 800px;
+			margin: auto;
+		}
+
+		#tribute-info {
+			display: flex;
+			flex-direction: row;
+			text-align: justify;
+		}
+
+		#img-div {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+		}
+
+		p {
+			padding: 10px;
+		}
+
+		h1 {
+			font-family: 'Raleway', sans-serif;
+		}
+
+		footer {
+			font-size: 9px;
+		}
+
+	</style>
+</head>
+<body>
+
+<main id="main">
+	<header>
+		<h1 id="title">Robert C. Martin - Uncle Bob</h1>
+	</header>
+
+	<section>
+		<div id="img-div">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2rUW78gjOAWyaxubDyfT8yGzvenhDLUzFoK9V30iU52DysgH-" id="image" alt="Uncle Bob">
+			<p id="img-caption">Uncle Bob wants you!</p>
+		</div>
+
+		<div>
+			<div id="tribute-info">
+
+				<p>
+					Robert C. Martin, colloquially known as "Uncle Bob",[2] is an American software engineer and instructor. He is best known for being one of the authors of the Agile Manifesto[3][4] and for developing several software design principles. He was also the editor-in-chief of C++ Report magazine and served as the first chairman of the Agile Alliance.
+
+					Martin operated the now-defunct company, Object Mentor, which provided instructor-led training courses about extreme programming methodology. He now operates two companies: Uncle Bob Consulting, which provides consulting and training services, and Clean Coders, which provides training videos.
+				</p>
+				<p>
+					One of the most demanded lecturers in the world, Uncle Bob Martin, is coming to Belgrade this April. He will give a lecture at ITkonekt, which will be held on April 13 and 14 at Belexpocentar.
+
+					Uncle Bob has been programming since 1970 and has great knowledge when it comes to software development. He was one of the 17 visionaries who met in 2001 to discuss new methods in the IT industry, resulting in the famous Agile Manifesto, still an important document in the IT world.
+
+					Uncle Bob has published several dozen books and articles, which have become mandatory reading for IT professionals worldwide.
+				</p>
+			</div>
+			<a href="https://en.wikipedia.org/wiki/Robert_C._Martin" target="_blank" id="tribute-link">More about Uncle Bob</a>
+		</div>
+	</section>
+	<footer>
+		Copyright 2019
+	</footer>
+</main>
+
+</body>
+</html>
